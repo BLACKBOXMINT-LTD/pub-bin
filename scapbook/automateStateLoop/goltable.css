@@ -27,8 +27,8 @@
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  border: 1px solid grey; /* grey border */
-  border-radius: 10px; /* rounded corners */
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 .gogrid-item-dead {
@@ -37,6 +37,6 @@
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  border: 1px solid grey; /* grey border */
-  border-radius: 10px; /* rounded corners */
+  border: 1px solid grey;
+  border-radius: 10px;
 }
