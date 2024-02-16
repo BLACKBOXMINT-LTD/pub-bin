@@ -1,0 +1,42 @@
+.gogrid {
+  display: grid;
+  grid-template-columns: repeat(var(--numCols), 1fr);
+  grid-template-rows: repeat(var(--numRows), 1fr);
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid grey;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.gogrid-item:hover {
+  background-color: #992bed;
+  cursor: pointer;
+}
+
+.gogrid-item:active {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.gogrid-item-alive {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid grey; /* grey border */
+  border-radius: 10px; /* rounded corners */
+}
+
+.gogrid-item-dead {
+  background-color: #000000;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid grey; /* grey border */
+  border-radius: 10px; /* rounded corners */
+}
