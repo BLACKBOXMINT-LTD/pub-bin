@@ -98,8 +98,8 @@ function GameOfLife ( { Rows, Columns } ) {
                     ) ) : null }
             </div>
             <div className='columns-2'>
-                <div className=''><button className="bbmBtn mt-6" onClick={ async () => { startGame() } } disabled={ btnDisabled }>RUN PATTERN</button></div>
-                <div className=''><button className="bbmBtn mt-6" onClick={ async () => { clearBoard() } } disabled={ btnDisabled }>CLEAR BOARD</button></div>
+                <div className=''><button className="bbmBtn mt-6" onClick={ async () => { startGame() } } >RUN PATTERN</button></div>
+                <div className=''><button className="bbmBtn mt-6" onClick={ async () => { clearBoard() } } >CLEAR BOARD</button></div>
             </div>
         </div>
     );
